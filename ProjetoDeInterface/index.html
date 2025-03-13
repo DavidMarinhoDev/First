@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML tags</title>
+</head>
+<body>
+    <!--Link da Página-->
+    <a href="./Paginas/Pagina1.html"> <!--Tag [a] para linkar paginas, serve tanto para sites-->
+        Acesse aqui a minha Página 1!
+    </a>
+    <hr> <!--Quebra de linha vísivel-->
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/ul"> <!-- Link do site -->
+        Site Developer mozilla
+    </a>
+    <hr> <!--Quebra de linha vísivel-->
+    <!--TAGS SEMÂNTICAS e Elementos de texto-->
+    <b>Usando a tag [b] para negrito</b> <!-- Negrito -->
+    <br>
+    <i>Usando a tag [i] para italico</i> <!-- Italico -->
+    <br>
+    <u>Usando a tag [u ] para Sublinhado ou undercold</u> <!-- Sublinhado-->
+    <br>
+    <del>Usando a tag [del]</del> <!-- Mesma funcionalidade do s -->
+    <br>
+    <s>Usando a tag [s]</s><!-- Mesma funcionalidade do Del -->
+    <br>
+    <br>
+    <big>Usando a tag [big]</big> <!-- Aumenta 2px -->
+    <br>
+    <small>Usando a tag [small]</small> <!-- Diminui 2px -->
+    <p>
+        aaa
+        <sup> <!--Sobe texto-->
+            Usando a tag [sup] para subir texto
+        </sup>
+        <sub><!--Desce o texto-->
+            Usando a tag[sub] para descer texto
+        </sub>
+    </p>
+    <!--Fecha semânticas-->
+    <hr>
+    <!--Hierarquia-->
+    <h1>h1</h1>
+    <h2>h2</h2>
+    <h3>h3</h3>
+    <h4>h4</h4>
+    <h5>h5</h5>
+    <h6>h6</h6>
+    <!--Fecha Hierarquia-->
+    <hr>
+
+    <!--TAG DE CÓDIGO-->
+    <pre> <!-- Exibe o codigo na IDE da mesma forma que se encontra. Mantem a estrutura do código no site!-->
+        <b>usando a tag(pre)</b>
+
+
+        function multiplu(a,b ){
+            b = typeof b !== "undefined" ? b : 1;
+                return a * b;
+        } exemplo
+    </pre>
+    <br> <!--  produz uma quebra de linha em um texto-->
+    <code> <!-- Exibe o código alinhado a esquerda naturalmente na mesma linha -->
+        <b>usando a tag(code)</b>
+
+
+        function multiplu(a,b ){
+            b = typeof b !== "undefined" ? b : 1;
+                return a * b;
+        } exemplo
+    </code>
+    <!--Listas Ordenadas e Não ordenadas-->
+    <br> <!--  produz uma quebra de linha em um texto-->
+    <ol> <!-- lista ordenada-->
+        <li>Moto</li> <!-- Linha-->
+        <li>Bicicleta</li>
+        <li>Skate</li>
+        <li>Elevador</li>
+        <li>Patinete</li>
+        <li>Avião</li>
+        <li>Calcinha</li>
+        <li>Cueca</li>
+        <li>Chinelo</li>
+    </ol>
+    <br> <!--  produz uma quebra de linha em um texto-->
+    <br> 
+    <ol type="A"> <!-- lista ordenada usando tipagem.Importante para estilização-->
+        <li>Moto</li> <!-- Linha-->
+        <li>Bicicleta</li>
+        <li>Skate</li>
+        <li>Elevador</li>
+        <li>Patinete</li>
+        <li>Avião</li>
+        <li>Calcinha</li>
+        <li>Cueca</li>
+        <li>Chinelo</li>
+    </ol>
+    <br>
+    <ol type="1" start="100"> <!-- Tipagem e start. Para iniciar no numero do "start". Usado somente com numero  -->
+        <li>Moto</li> <!-- Linha-->
+        <li>Bicicleta</li>
+        <li>Skate</li>
+        <li>Elevador</li>
+        <li>Patinete</li>
+        <li>Avião</li>
+        <li>Calcinha</li>
+        <li>Cueca</li>
+        <li>Chinelo</li>
+    </ol>
+    <br>
+    <ul> <!--Lista não Ordenada-->
+    <!--Ponto-->
+        <li>Moto</li> <!-- Linha-->
+        <li>Bicicleta</li>
+        <li>Skate</li>
+        <li>Elevador</li>
+        <li>Patinete</li>
+        <li>Avião</li>
+        <li>Calcinha</li>
+        <li>Cueca</li>
+        <li>Chinelo</li>
+    </ul>
+    <br>
+    <ul type="circle"> <!--Lista não Ordenada usando tipagem "type"-->
+        <!--Ponto-->
+            <li>Moto</li> <!-- Linha-->
+            <li>Bicicleta</li>
+            <li>Skate</li>
+            <li>Elevador</li>
+            <li>Patinete</li>
+            <li>Avião</li>
+            <li>Calcinha</li>
+            <li>Cueca</li>
+            <li>Chinelo</li>
+        </ul>
+        <!--Tipos de alinhamentos-->
+        <!--Alinhado a direita-->
+        <!--Alinhado a esquerda-->
+        <!--Centralizado-->
+        <!--Justificado-->
+        <br>
+        <!--Hierarquia com align-->
+        <h1 align="center">Texto centralizado</h1>
+        <h1 align="left">Texto alinhado na esquerda</h1>
+        <h1 align="right">Texto alinhado na direita</h1>
+        <h1 align="justify">Texto justificado</h1> <!--Não funciona no html-->
+        <br>
+
+</body>
+</html>
