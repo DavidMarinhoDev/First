@@ -15,12 +15,17 @@
         var nome = window.prompt('Qual é seu nome?');
         document.writeln(`Seu nome tem ${nome.length} letras </br>`)
         document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()} </br>`)
-        document.write(`Seu nome em minúsculas é ${nome.toLowerCase()}`);
+        document.write(`Seu nome em minúsculas é ${nome.toLowerCase()}</br>`);
+
+        var media = parseFloat(window.prompt('Digite a sua media: '))
+        var r ;
+        if (media > 7 ? r = 'APROVADO':r = 'REPROVADO');
+        document.write(`${nome} você foi ${r}, com uma média de ${media}`);
     </script>
 </body>
 </html>
 
-//toFixed(n) para escolher quantas casas decimais
+<!--toFixed(n) para escolher quantas casas decimais
 //toFixed(n).replace('.', ',') para trocar
 //toLocaleString('pt-BR'), {style: 'currency', currency: 'BRL'}
 // localiza a string global com a linguagem pt-BR. Define o estilo para 'currency (tipo monetario)' currency recebe o valor em 'BRL' ou 'USD','EUR' etc...
@@ -28,3 +33,4 @@
 // n += 5 simplificação. Vale para todos os operadores logicos. *, - , %, /, **
 // n++ incremento. Simplifica ainda mais a simplificação.
 // ++n Pre-incremento.
+// ! negação.
