@@ -1,0 +1,25 @@
+body {
+    background: rgba(0, 0, 255, 0.801);
+    font: normal 17pt Arial;
+    text-align: center;
+}
+h1{
+    color: white;
+    text-shadow: 12px 11px 15px black;
+}
+
+input{
+    border-radius: 5px 5px 5px;
+    box-shadow: 10px 11px 18px black;
+    padding: 10px;
+}   
+section {
+    font: normal 17pt Arial;
+    color: white;
+    text-align: center;
+}
+
+p{
+    text-shadow: 3px 5px 8px black;
+}
+ 
