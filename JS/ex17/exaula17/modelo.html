@@ -8,16 +8,19 @@
 </head>
 <body>
     <header>
-        <h1>TABUADA</h1>
+        <h1>Analisador de Números</h1>
     </header>
     <section>
         <div>
-            Número: <input type="number" name="txtn" id="txtn"/>
-                    <button type="button" onclick="tabuada()">Gerar Tabuada</button>
+           Número (entre 1 a 100): <input type="number" name="txtn" id="txtn">
+           <button type="button" onclick="adicionar()">Adicionar</button>
+           <br> <br>
+           <select name="flista" id="flista" size="6"></select>
+           <br>
+           <input type="button" value="Finalizar" onclick="finalizar()">
         </div>
-        <div>
-            <p> Aqui vai o resultado</p> 
-            <select name="txtres" id="txtres">res</select>
+        <div id="res">
+
         </div>
     </section>
     <footer>
