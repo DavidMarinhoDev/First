@@ -2,24 +2,25 @@
 // Nome: David Marinho Gonçalves Fonseca
 // Atividade 10
 
+//Problema: Você é responsável por calcular a média de uma turma de alunos. Cada aluno tem 3 notas, e você precisa calcular a média de cada aluno e, em seguida, calcular a média geral da turma.
+
 const prompt = require('prompt-sync') ({sigint: true});
 
-let vendas = parseFloat(prompt("Digite o total das vendas realizadas no mês: R$"));
 
-if (vendas >= 0) {
-    const salarioFixo = 1500.00;
-    const percentualComissao = 0.05;
-    const percentualINSS = 0.08; 
+let na1 = parseInt(prompt("Aluno 1:Digite sua primeira nota: ")) 
+let na2 = parseInt(prompt("Aluno 1:Digite sua segunda nota: ")) 
+let na3 = parseInt(prompt("Aluno 1:Digite sua terceira nota: "))
+let mediaAluno1 = (na1 + na2 + na3) / 2
 
-    let comissao = vendas * percentualComissao;
-    let salarioTotal = salarioFixo + comissao;
-    let descontoINSS = salarioTotal * percentualINSS;
-    let salarioFinal = salarioTotal - descontoINSS;
+let nAluno1 = parseInt(prompt("Aluno 2:Digite sua primeira nota: ")) 
+let nAluno2 = parseInt(prompt("Aluno 2:Digite sua segunda nota: ")) 
+let nAluno3 = parseInt(prompt("Aluno 2:Digite sua terceira nota: "))
+let mediaAluno2 = (nAluno1 + nAluno2 + nAluno3) / 2
 
-    console.log("Salário Fixo: R$ " + salarioFixo.toFixed(2));
-    console.log("Comissão: R$ " + comissao.toFixed(2));
-    console.log("Desconto INSS (8%): R$ " + descontoINSS.toFixed(2));
-    console.log("Salário Final: R$ " + salarioFinal.toFixed(2));
-} else {
-    alert("O valor das vendas deve ser maior ou igual a zero.");
-}
+let mediaGeral = (mediaAluno1 + mediaAluno2) / 4
+
+
+console.log("Aluno 1 - Média: " + mediaAluno1.toFixed(2));
+console.log("Aluno 2 - Média: " + mediaAluno2.toFixed(2));
+
+console.log("Média geral da turma: " + mediaGeral.toFixed(2));

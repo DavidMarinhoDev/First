@@ -1,7 +1,6 @@
 // Matricula: 25114290113 
 // Nome: David Marinho Gonçalves Fonseca
 // Atividade 05
-
 const prompt = require ('prompt-sync') ({sigint : true});
 
 console.log("Escolha uma cor : [VERDE], [AMARELO], [VERMELHO]")
