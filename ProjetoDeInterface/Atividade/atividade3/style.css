@@ -1,0 +1,28 @@
+body{
+    background-color: springgreen;
+    background: black
+}
+fieldset{
+    margin: 100px;
+    border-color: black;
+    box-shadow: 5px 5px 2px green;
+}
+h1{
+    text-align: center;
+    color: white;
+    box-shadow: 5px 5px 10px green;
+    border: 15pt ;
+}
+header{
+    background: black;
+    margin: auto;
+    height: 2px;
+}
+
+label{
+    margin: 15px;
+    padding: 5px;
+    font: normal 15pt Arial;
+    color: white;
+    box-shadow: 5px 5px 5px green;
+}
