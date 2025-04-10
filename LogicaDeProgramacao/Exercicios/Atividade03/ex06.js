@@ -32,5 +32,4 @@ switch(dia) {
     default:
         Dia = "Dia inválido";
 }
-
 console.log(Dia);
