@@ -30,6 +30,14 @@ p {
     box-shadow: 5px 5px 55px  #ff1313;
 } 
 
+a:hover{
+    color: #ff1313;
+}
+
+.container {
+    text-align: center;
+}
+
 
 
 

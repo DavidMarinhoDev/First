@@ -1,0 +1,601 @@
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+/* index.html */
+#bodyIndex{
+    overflow: hidden;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    background-image: url('./Imagens/Imagem1.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav{
+    display: flex;
+}
+.menu {
+    list-style: none;
+    margin: 5px auto;
+    padding: 0;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin: 20px;
+    display: block;
+}
+
+.menu li a:hover{
+    color: red;
+    text-shadow: 5px 5px 5px brown;
+}
+
+.menu li ul{
+    position:absolute;
+    top: 25px;
+    left: 0px;
+    display: none;
+}
+
+.menu li ul li{
+    border: 1px solid black;
+    display: block;
+    width: 100px;
+}
+
+#h2Index{
+    color: white;
+    text-align: center;
+    text-shadow: 3px 2px 9px white;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#pIsolado{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+#h3Index{
+    color: rgb(255, 0, 0);
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+}
+
+#pIndex{
+    color: white;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+}
+#pIcons{
+    padding-bottom: 0px auto;
+    text-align: center;
+    margin: 50px 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+  
+#pIcons a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+#footerIndex{
+    padding: 20px;
+}
+
+#footerIndex p{
+    color: white;
+    text-align: center;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#footerIndex a {
+    color: white;
+    text-decoration: none;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 5px 5px 5px black;
+}
+
+#iconGit{
+    width: 34px;
+    vertical-align: middle;
+}
+
+#iconInstagram{
+    width: 34px;
+    vertical-align: middle;
+}
+
+/* index.html acima */
+
+/* Pagina1.html Abaixo*/
+
+#bodyFirst{
+    overflow: hidden;
+    font-family: "Underdog", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(to right, #0b0c10, #1a1a2e, #3a0ca3);
+}
+#navFirst{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px; 
+}
+
+#navFirst .first {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+  }
+
+.first {
+    list-style: none;
+    margin: 5px auto;
+    padding: 0;
+}
+
+.first li {
+    position: relative;
+    float: left;
+    
+}
+
+.first li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin: 20px;
+    display: block;
+}
+
+.first li a:hover{
+    color: rgb(12, 12, 14);
+    text-shadow: 5px 2px 5px rgb(255, 255, 255);
+}
+
+.first li ul{
+    position:absolute;
+    top: 25px;
+    left: 0px;
+    display: none;
+}
+
+.first li ul li{
+    border: 1px solid black;
+    display: block;
+    width: 100px;
+}
+
+#logoSL{
+    width: 120px;
+    height: auto;
+}
+
+.bloco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+  }
+
+.imagemSL {
+    width: 650px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+.texto {
+    max-width: 400px;
+  }
+
+#h1First {
+    font-size: 36px;
+    margin-bottom: 15px;
+    text-shadow: 5px 2px 5px rgb(162, 0, 255);
+}
+
+#pFirstI {
+    font-size: 18px;
+    font-style: italic;
+}
+
+#footerFirst{
+    padding: 20px;
+}
+
+#footerFirst p{
+    color: white;
+    text-align: center;
+    text-shadow: 5px 2px 5px #000;
+
+}
+
+#footerFirst a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px black;
+}
+
+/* Pagina 2 Abaixo */
+
+#bodySecond{
+    overflow: hidden;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(155, 133, 7);
+}
+#navSecond{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px; 
+}
+
+#navSecond .second {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+  }
+
+.second {
+    list-style: none;
+    margin: 5px auto;
+    padding: 0;
+}
+
+.second li {
+    position: relative;
+    float: left;
+    
+}
+
+.second li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin: 20px;
+    display: block;
+}
+
+.second li a:hover{
+    color: rgb(251, 255, 4);
+    text-shadow: 5px 2px 5px rgb(0, 0, 0);
+}
+
+.second li ul{
+    position:absolute;
+    top: 25px;
+    left: 0px;
+    display: none;
+}
+
+.second li ul li{
+    border: 1px solid black;
+    display: block;
+    width: 100px;
+}
+
+#logoOP{
+    width: 120px;
+    height: auto;
+}
+
+.blocoSecond {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+  }
+
+.imagemOP {
+    width: 650px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+.textoSecond {
+    max-width: 400px;
+  }
+
+#h1Second {
+    font-size: 36px;
+    margin-bottom: 15px;
+    text-shadow: 5px 2px 5px rgb(255, 238, 0);
+}
+
+#pSecondI {
+    font-size: 18px;
+    font-style: italic;
+}
+
+#footerSecond{
+    padding: 20px;
+}
+
+#footerSecond p{
+    color: white;
+    text-align: center;
+    text-shadow: 5px 2px 5px #000;
+
+}
+
+#footerSecond a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px black;
+}
+
+/* Pagina 3 Abaixo */
+
+#bodyThird{
+    overflow: hidden;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(16, 122, 2);
+}
+#navThird{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px; 
+}
+
+#navThird .third {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+  }
+
+.third {
+    list-style: none;
+    margin: 5px auto;
+    padding: 0;
+}
+
+.third li {
+    position: relative;
+    float: left;
+    
+}
+
+.third li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin: 20px;
+    display: block;
+}
+
+.third li a:hover{
+    color: rgb(21, 255, 0);
+    text-shadow: 5px 2px 5px rgb(0, 0, 0);
+}
+
+.third li ul{
+    position:absolute;
+    top: 25px;
+    left: 0px;
+    display: none;
+}
+
+.third li ul li{
+    border: 1px solid black;
+    display: block;
+    width: 100px;
+}
+
+#logoHxH{
+    width: 120px;
+    height: auto;
+}
+
+.blocoThird {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+  }
+
+.imagemHxH {
+    width: 610px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+.textoThird {
+    max-width: 400px;
+  }
+
+#h1Third {
+    font-size: 36px;
+    margin-bottom: 15px;
+    text-shadow: 5px 2px 5px rgb(188, 240, 0);
+}
+
+#pThirdI {
+    font-size: 18px;
+    font-style: italic;
+}
+
+#footerThird{
+    padding: 20px;
+}
+
+#footerThird p{
+    color: white;
+    text-align: center;
+    text-shadow: 5px 2px 5px #000;
+
+}
+
+#footerThird a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px black;
+}
+
+/* Pagina 4 Abaixo */
+
+#bodyFourth{
+    overflow: hidden;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #0f172a;
+}
+#navFourth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px; 
+}
+
+#navFourth .fourth {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+  }
+
+.fourth {
+    list-style: none;
+    margin: 5px auto;
+    padding: 0;
+}
+
+.fourth li {
+    position: relative;
+    float: left;
+    
+}
+
+.fourth li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin: 20px;
+    display: block;
+}
+
+.fourth li a:hover{
+    color: rgb(4, 181, 194);
+    text-shadow: 5px 2px 5px rgb(255, 255, 255);
+}
+
+.fourth li ul{
+    position:absolute;
+    top: 25px;
+    left: 0px;
+    display: none;
+}
+
+.fourth li ul li{
+    border: 1px solid black;
+    display: block;
+    width: 100px;
+}
+
+#logoSAO{
+    width: 120px;
+    height: auto;
+}
+
+.blocoFourth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+  }
+
+.imagemSAO {
+    width: 510px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+.textoFourth {
+    max-width: 400px;
+  }
+
+#h1Fourth {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 15px;
+    text-shadow: 5px 2px 5px rgb(3, 151, 196);
+}
+
+#pFourthI {
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+}
+
+#footerFourth{
+    padding: 20px;
+}
+
+#footerFourth p{
+    color: white;
+    text-align: center;
+    text-shadow: 5px 2px 5px #000;
+
+}
+
+#footerFourth a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px black;
+}

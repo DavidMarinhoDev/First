@@ -1,0 +1,19 @@
+body{
+    background-color: brown;
+    font: normal 12px Arial;
+}
+
+p{
+    color: white;
+    font: normal 15pt Arial;
+}
+
+a{
+    font: normal 15pt Arial;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: white;
+}
