@@ -1,8 +1,6 @@
 //Matricula: 25114290113
 //Nome: David Marinho Gonçalves Fonseca
-
 const prompt = require('prompt-sync')({sigint: true});
-
 console.log("Escolha uma cor")
 console.log("[Verde], [Amarelo], [Vermelho]")
 let per = prompt(": ");
