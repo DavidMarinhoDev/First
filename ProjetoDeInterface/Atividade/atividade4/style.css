@@ -11,7 +11,7 @@
     background-color: black;
     margin: 0;
     padding: 0;
-    background-image: url('./Imagens/Imagem1.jpg');
+    background-image: url('./Imagens/Fluminense.jpg');
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
@@ -149,7 +149,7 @@ nav{
 /* Pagina1.html Abaixo*/
 
 #bodyFirst{
-    overflow: hidden;
+
     font-family: "Underdog", system-ui;
     font-weight: 400;
     font-style: normal;
@@ -208,8 +208,8 @@ nav{
     width: 100px;
 }
 
-#logoSL{
-    width: 120px;
+#logoSC{
+    width: 30px;
     height: auto;
 }
 
@@ -221,7 +221,7 @@ nav{
     padding: 40px;
   }
 
-.imagemSL {
+.imagemSC {
     width: 650px;
     height: auto;
     border-radius: 10px;
@@ -262,7 +262,6 @@ nav{
 /* Pagina 2 Abaixo */
 
 #bodySecond{
-    overflow: hidden;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -321,7 +320,7 @@ nav{
     width: 100px;
 }
 
-#logoOP{
+#logoSO{
     width: 120px;
     height: auto;
 }
@@ -334,7 +333,7 @@ nav{
     padding: 40px;
   }
 
-.imagemOP {
+.imagemSO {
     width: 650px;
     height: auto;
     border-radius: 10px;
@@ -488,7 +487,6 @@ nav{
 /* Pagina 4 Abaixo */
 
 #bodyFourth{
-    overflow: hidden;
     font-family: "Cinzel", serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -547,7 +545,7 @@ nav{
     width: 100px;
 }
 
-#logoSAO{
+#logoRT{
     width: 120px;
     height: auto;
 }
@@ -560,7 +558,7 @@ nav{
     padding: 40px;
   }
 
-.imagemSAO {
+.imagemRT {
     width: 510px;
     height: auto;
     border-radius: 10px;
